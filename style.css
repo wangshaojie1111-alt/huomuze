@@ -33,14 +33,12 @@ header nav ul li a {
 /* 首页 */
 .dynamic-home {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     text-align: center;
-    padding: 0 20px;
     margin-top: 0;
 }
 
@@ -92,7 +90,6 @@ header nav ul li a {
     width: 100%;
     height: 200px;
     object-fit: cover;
-    border-radius: 0;
     display: block;
 }
 
@@ -185,25 +182,4 @@ footer {
     background-color: #333;
     color: white;
     margin-top: 0;
-}
-
-/* 响应式设计 */
-@media (max-width: 768px) {
-    header nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-    
-    .dynamic-home h1 {
-        font-size: 1.8rem;
-    }
-    
-    .dynamic-home p {
-        font-size: 1rem;
-    }
-    
-    .projects-grid,
-    .features-grid {
-        grid-template-columns: 1fr;
-    }
 }
