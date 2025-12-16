@@ -1,0 +1,124 @@
+/* 基本样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* 首页 */
+.dynamic-home {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.dynamic-home h1 {
+    font-size: 3rem;
+}
+
+.dynamic-home p {
+    font-size: 1.5rem;
+}
+
+/* 行业项目 */
+.projects {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project-item .view-more {
+    display: block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* 特色板块 */
+.features {
+    padding: 50px 20px;
+    background-color: #e0e0e0;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.feature-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 联系我们 */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
